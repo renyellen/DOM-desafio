@@ -178,7 +178,7 @@ main{
 }
 .wallpaper{
     width: 100%;
-    background-image: url('./imagens/wallpaper.jpg');
+    background-image: url('./imagens/wallpaper.jpg.jpeg');
     background-size: cover;
     background-position: center;
     flex:1;

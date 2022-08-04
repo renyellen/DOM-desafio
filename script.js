@@ -6,7 +6,7 @@ const handleFocus = ({target})=>{
     const span = target.previousElementSibling;
     span.classList.add('span-active')
 }
-//desestruturar o target para hegar no span, que é o objeto que queremos usar//
+
 
 const handleFocusOut = ({target})=>{
     if(target.value === ''){
@@ -26,5 +26,5 @@ const handleChange = () => {
 }
 
 inputs.forEach((input)=>input.addEventListener('focus', handleFocus));
-inputs.forEach((input)=>input.addEventListener('focusout', handleFocusOut));
+inputs.forEach((input)=>input.addEventListener('focusout', handleFocusut));
 inputs.forEach((input)=>input.addEventListener('input', handleChange));
