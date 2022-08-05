@@ -1,5 +1,5 @@
 const inputs = document.querySelectorAll('.input');
-//arrey com dois elementos, precisa tmabém adicionar um event listener para rastrear a mudança do input e ativar a função//
+
 const button = document.querySelector('.login_button');
 
 const handleFocus = ({target})=>{

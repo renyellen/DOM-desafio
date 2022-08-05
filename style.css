@@ -16,6 +16,8 @@
     --black: #000000;
     --blue: #1b77f3;
     --red: #cf3c3f;
+    --new:#8A0000;
+    
 }
 main{
     display:flex;
@@ -104,12 +106,13 @@ main{
  border-radius: 5px;
  cursor: pointer;
  border:none;
+ color:#FF002E36;
 }
 .login_icons .icons_button:nth-child(1){
     background-color: var(--blue);
 }
 .login_icons .icons_button:nth-child(2){
-    background-color: var(--lightgray);
+    background-color: var(--new);
 }
 .login_icons .icons_button:nth-child(3){
     background-color: var(--black);
@@ -156,15 +159,15 @@ main{
     margin-top: 95px;
     margin-bottom: 30px;
 }
-.login_button svg{
-   fill: white;
+.login_button {
+   fill:#FF002E36;
 }
 .login_button:disabled {
     cursor: auto;
-    background-color: white;
+    background-color: #FF002E36;
     border: 2px solid var(--lightgray);
 }
-.login_button:disabled svg{
+.login_button:disabled png{
     fill: var(--grey);
 }
 .login_link{
